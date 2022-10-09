@@ -1,4 +1,4 @@
-# Fetch items
+### Fetch items
 GRAPHQL http://localhost:8080/graphql
 
 query {
@@ -15,8 +15,7 @@ query {
 }
 
 {}
-###
-# Create item
+### Create item
 GRAPHQL http://localhost:8080/graphql
 
 mutation {
@@ -26,8 +25,7 @@ mutation {
     description
   }
 }
-###
-# Delete item by id
+### Delete item by id
 GRAPHQL http://localhost:8080/graphql
 
 mutation {
@@ -37,5 +35,3 @@ mutation {
     description
   }
 }
-
-###
