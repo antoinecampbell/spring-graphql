@@ -1,0 +1,15 @@
+type Query {
+    items(id: [ID], name: String): [Item]
+    item(id: ID!): Item
+}
+
+type Item {
+  id: ID!
+  name: String!
+  description: String
+}
+
+input ItemInput {
+  name: String!
+  description: String
+}
